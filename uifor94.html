@@ -1,0 +1,1268 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <base target="_self">
+      <meta charset="utf-8">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  
+
+  <script>
+  function download1() {
+  url="https://94gctians-documents-upload-form.tk/Appdendix-1.pdf";
+  filename="Appendix-1.pdf"
+fetch(url).then(function(t) {
+    return t.blob().then((b)=>{
+        var a = document.createElement("a");
+        a.href = URL.createObjectURL(b);
+        a.setAttribute("download", filename);
+        a.click();
+    }
+    );
+});
+}
+  
+function download2() {
+  url="https://94gctians-documents-upload-form.tk/Appendix-2.pdf";
+  filename="Appendix-2.pdf"
+fetch(url).then(function(t) {
+    return t.blob().then((b)=>{
+        var a = document.createElement("a");
+        a.href = URL.createObjectURL(b);
+        a.setAttribute("download", filename);
+        a.click();
+    }
+    );
+});
+}
+
+//download("https://get.geojs.io/v1/ip/geo.json","geoip.json")
+//download("data:text/html,HelloWorld!", "helloWorld.txt");
+  function LoadFile(event,username)
+  {
+  
+  
+    var file = event.target.files[0];
+    var reader = new FileReader();
+    reader.onload = function(e) {
+      console.log(e.target.result);
+      var fileData = e.target.result.substr(e.target.result.indexOf(",")+1);
+      var mimeTypeStart = e.target.result.indexOf("data:") + 5;
+      var mimeTypeEnd = e.target.result.indexOf(";");
+      var mimeType = e.target.result.substr(mimeTypeStart, mimeTypeEnd - mimeTypeStart);
+      var fileName = file.name
+      var username = username
+;
+      document.getElementById("fileData").value = fileData;
+      document.getElementById("mimeType").value = mimeType;
+      document.getElementById("fileName").value = fileName;
+    };    
+    reader.readAsDataURL(file,username);
+    
+  }
+  
+  function LoadFile2(event)
+  {
+    var file = event.target.files[0];
+    var reader = new FileReader();
+    reader.onload = function(e) {
+      console.log(e.target.result);
+      var fileData = e.target.result.substr(e.target.result.indexOf(",")+1);
+      var mimeTypeStart = e.target.result.indexOf("data:") + 5;
+      var mimeTypeEnd = e.target.result.indexOf(";");
+      var mimeType = e.target.result.substr(mimeTypeStart, mimeTypeEnd - mimeTypeStart);
+      var fileName = file.name
+;
+      document.getElementById("fileData2").value = fileData;
+      document.getElementById("mimeType2").value = mimeType;
+      document.getElementById("fileName2").value = fileName;
+    };    
+    reader.readAsDataURL(file);
+    
+  }
+  
+   function LoadFile3(event)
+  {
+    var file = event.target.files[0];
+    var reader = new FileReader();
+    reader.onload = function(e) {
+      console.log(e.target.result);
+      var fileData = e.target.result.substr(e.target.result.indexOf(",")+1);
+      var mimeTypeStart = e.target.result.indexOf("data:") + 5;
+      var mimeTypeEnd = e.target.result.indexOf(";");
+      var mimeType = e.target.result.substr(mimeTypeStart, mimeTypeEnd - mimeTypeStart);
+      var fileName = file.name
+;
+      document.getElementById("fileData3").value = fileData;
+      document.getElementById("mimeType3").value = mimeType;
+      document.getElementById("fileName3").value = fileName;
+    };    
+    reader.readAsDataURL(file);
+    
+  }
+   function LoadFile4(event)
+  {
+    var file = event.target.files[0];
+    var reader = new FileReader();
+    reader.onload = function(e) {
+      console.log(e.target.result);
+      var fileData = e.target.result.substr(e.target.result.indexOf(",")+1);
+      var mimeTypeStart = e.target.result.indexOf("data:") + 5;
+      var mimeTypeEnd = e.target.result.indexOf(";");
+      var mimeType = e.target.result.substr(mimeTypeStart, mimeTypeEnd - mimeTypeStart);
+      var fileName = file.name
+;
+      document.getElementById("fileData4").value = fileData;
+      document.getElementById("mimeType4").value = mimeType;
+      document.getElementById("fileName4").value = fileName;
+    };    
+    reader.readAsDataURL(file);
+    
+  }
+  
+   function LoadFile5(event)
+  {
+    var file = event.target.files[0];
+    var reader = new FileReader();
+    reader.onload = function(e) {
+      console.log(e.target.result);
+      var fileData = e.target.result.substr(e.target.result.indexOf(",")+1);
+      var mimeTypeStart = e.target.result.indexOf("data:") + 5;
+      var mimeTypeEnd = e.target.result.indexOf(";");
+      var mimeType = e.target.result.substr(mimeTypeStart, mimeTypeEnd - mimeTypeStart);
+      var fileName = file.name
+;
+      document.getElementById("fileData5").value = fileData;
+      document.getElementById("mimeType5").value = mimeType;
+      document.getElementById("fileName5").value = fileName;
+    };    
+    reader.readAsDataURL(file);
+    
+  }
+   function LoadFile6(event)
+  {
+    var file = event.target.files[0];
+    var reader = new FileReader();
+    reader.onload = function(e) {
+      console.log(e.target.result);
+      var fileData = e.target.result.substr(e.target.result.indexOf(",")+1);
+      var mimeTypeStart = e.target.result.indexOf("data:") + 5;
+      var mimeTypeEnd = e.target.result.indexOf(";");
+      var mimeType = e.target.result.substr(mimeTypeStart, mimeTypeEnd - mimeTypeStart);
+      var fileName = file.name
+;
+      document.getElementById("fileData6").value = fileData;
+      document.getElementById("mimeType6").value = mimeType;
+      document.getElementById("fileName6").value = fileName;
+    };    
+    reader.readAsDataURL(file);
+    
+  }
+   function LoadFile7(event)
+  {
+    var file = event.target.files[0];
+    var reader = new FileReader();
+    reader.onload = function(e) {
+      console.log(e.target.result);
+      var fileData = e.target.result.substr(e.target.result.indexOf(",")+1);
+      var mimeTypeStart = e.target.result.indexOf("data:") + 5;
+      var mimeTypeEnd = e.target.result.indexOf(";");
+      var mimeType = e.target.result.substr(mimeTypeStart, mimeTypeEnd - mimeTypeStart);
+      var fileName = file.name
+;
+      document.getElementById("fileData7").value = fileData;
+      document.getElementById("mimeType7").value = mimeType;
+      document.getElementById("fileName7").value = fileName;
+    };    
+    reader.readAsDataURL(file);
+    
+  }
+   function LoadFileEight(event)
+  {
+    var file = event.target.files[0];
+    var reader = new FileReader();
+    reader.onload = function(e) {
+      console.log(e.target.result);
+      var fileData = e.target.result.substr(e.target.result.indexOf(",")+1);
+      var mimeTypeStart = e.target.result.indexOf("data:") + 5;
+      var mimeTypeEnd = e.target.result.indexOf(";");
+      var mimeType = e.target.result.substr(mimeTypeStart, mimeTypeEnd - mimeTypeStart);
+      var fileName = file.name
+;
+      document.getElementById("fileData8").value = fileData;
+      document.getElementById("mimeType8").value = mimeType;
+      document.getElementById("fileName8").value = fileName;
+    };    
+    reader.readAsDataURL(file);
+    
+  }
+     function LoadFileNine(event)
+  {
+    var file = event.target.files[0];
+    var reader = new FileReader();
+    reader.onload = function(e) {
+      console.log(e.target.result);
+      var fileData = e.target.result.substr(e.target.result.indexOf(",")+1);
+      var mimeTypeStart = e.target.result.indexOf("data:") + 5;
+      var mimeTypeEnd = e.target.result.indexOf(";");
+      var mimeType = e.target.result.substr(mimeTypeStart, mimeTypeEnd - mimeTypeStart);
+      var fileName = file.name
+;
+      document.getElementById("fileData9").value = fileData;
+      document.getElementById("mimeType9").value = mimeType;
+      document.getElementById("fileName9").value = fileName;
+    };    
+    reader.readAsDataURL(file);
+    
+  }
+     function LoadFileTen(event)
+  {
+    var file = event.target.files[0];
+    var reader = new FileReader();
+    reader.onload = function(e) {
+      console.log(e.target.result);
+      var fileData = e.target.result.substr(e.target.result.indexOf(",")+1);
+      var mimeTypeStart = e.target.result.indexOf("data:") + 5;
+      var mimeTypeEnd = e.target.result.indexOf(";");
+      var mimeType = e.target.result.substr(mimeTypeStart, mimeTypeEnd - mimeTypeStart);
+      var fileName = file.name
+;
+      document.getElementById("fileData10").value = fileData;
+      document.getElementById("mimeType10").value = mimeType;
+      document.getElementById("fileName10").value = fileName;
+    };    
+    reader.readAsDataURL(file);
+    
+  }
+  
+     function LoadFileEleven(event)
+  {
+    var file = event.target.files[0];
+    var reader = new FileReader();
+    reader.onload = function(e) {
+      console.log(e.target.result);
+      var fileData = e.target.result.substr(e.target.result.indexOf(",")+1);
+      var mimeTypeStart = e.target.result.indexOf("data:") + 5;
+      var mimeTypeEnd = e.target.result.indexOf(";");
+      var mimeType = e.target.result.substr(mimeTypeStart, mimeTypeEnd - mimeTypeStart);
+      var fileName = file.name
+;
+      document.getElementById("fileData11").value = fileData;
+      document.getElementById("mimeType11").value = mimeType;
+      document.getElementById("fileName11").value = fileName;
+    };    
+    reader.readAsDataURL(file);
+    
+  }
+     function LoadFileTwelve(event)
+  {
+    var file = event.target.files[0];
+    var reader = new FileReader();
+    reader.onload = function(e) {
+      console.log(e.target.result);
+      var fileData = e.target.result.substr(e.target.result.indexOf(",")+1);
+      var mimeTypeStart = e.target.result.indexOf("data:") + 5;
+      var mimeTypeEnd = e.target.result.indexOf(";");
+      var mimeType = e.target.result.substr(mimeTypeStart, mimeTypeEnd - mimeTypeStart);
+      var fileName = file.name
+;
+      document.getElementById("fileData12").value = fileData;
+      document.getElementById("mimeType12").value = mimeType;
+      document.getElementById("fileName12").value = fileName;
+    };    
+    reader.readAsDataURL(file);
+    
+  }
+  
+      function LoadFile13(event)
+  {
+    var file = event.target.files[0];
+    var reader = new FileReader();
+    reader.onload = function(e) {
+      console.log(e.target.result);
+      var fileData = e.target.result.substr(e.target.result.indexOf(",")+1);
+      var mimeTypeStart = e.target.result.indexOf("data:") + 5;
+      var mimeTypeEnd = e.target.result.indexOf(";");
+      var mimeType = e.target.result.substr(mimeTypeStart, mimeTypeEnd - mimeTypeStart);
+      var fileName = file.name
+;
+      document.getElementById("fileData13").value = fileData;
+      document.getElementById("mimeType13").value = mimeType;
+      document.getElementById("fileName13").value = fileName;
+    };    
+    reader.readAsDataURL(file);
+    
+  }
+  
+      function LoadFile14(event)
+  {
+    var file = event.target.files[0];
+    var reader = new FileReader();
+    reader.onload = function(e) {
+      console.log(e.target.result);
+      var fileData = e.target.result.substr(e.target.result.indexOf(",")+1);
+      var mimeTypeStart = e.target.result.indexOf("data:") + 5;
+      var mimeTypeEnd = e.target.result.indexOf(";");
+      var mimeType = e.target.result.substr(mimeTypeStart, mimeTypeEnd - mimeTypeStart);
+      var fileName = file.name
+;
+      document.getElementById("fileData14").value = fileData;
+      document.getElementById("mimeType14").value = mimeType;
+      document.getElementById("fileName14").value = fileName;
+    };    
+    reader.readAsDataURL(file);
+    
+  }
+  
+      function LoadFile15(event)
+  {
+    var file = event.target.files[0];
+    var reader = new FileReader();
+    reader.onload = function(e) {
+      console.log(e.target.result);
+      var fileData = e.target.result.substr(e.target.result.indexOf(",")+1);
+      var mimeTypeStart = e.target.result.indexOf("data:") + 5;
+      var mimeTypeEnd = e.target.result.indexOf(";");
+      var mimeType = e.target.result.substr(mimeTypeStart, mimeTypeEnd - mimeTypeStart);
+      var fileName = file.name
+;
+      document.getElementById("fileData15").value = fileData;
+      document.getElementById("mimeType15").value = mimeType;
+      document.getElementById("fileName15").value = fileName;
+    };    
+    reader.readAsDataURL(file);
+    
+  }
+  
+      function LoadFile16(event)
+  {
+    var file = event.target.files[0];
+    var reader = new FileReader();
+    reader.onload = function(e) {
+      console.log(e.target.result);
+      var fileData = e.target.result.substr(e.target.result.indexOf(",")+1);
+      var mimeTypeStart = e.target.result.indexOf("data:") + 5;
+      var mimeTypeEnd = e.target.result.indexOf(";");
+      var mimeType = e.target.result.substr(mimeTypeStart, mimeTypeEnd - mimeTypeStart);
+      var fileName = file.name
+;
+      document.getElementById("fileData16").value = fileData;
+      document.getElementById("mimeType16").value = mimeType;
+      document.getElementById("fileName16").value = fileName;
+    };    
+    reader.readAsDataURL(file);
+    
+  }
+  
+      function LoadFile17(event)
+  {
+    var file = event.target.files[0];
+    var reader = new FileReader();
+    reader.onload = function(e) {
+      console.log(e.target.result);
+      var fileData = e.target.result.substr(e.target.result.indexOf(",")+1);
+      var mimeTypeStart = e.target.result.indexOf("data:") + 5;
+      var mimeTypeEnd = e.target.result.indexOf(";");
+      var mimeType = e.target.result.substr(mimeTypeStart, mimeTypeEnd - mimeTypeStart);
+      var fileName = file.name
+;
+      document.getElementById("fileData17").value = fileData;
+      document.getElementById("mimeType17").value = mimeType;
+      document.getElementById("fileName17").value = fileName;
+    };    
+    reader.readAsDataURL(file);
+    
+  }
+  
+  
+  </script>
+  
+  <body >
+ 
+<!-- <img src="https://94gctianstrust.org/img/logo.png" alt="94GCTians Trust Logo" width="100%" height="110"> -->
+
+<div class="header">
+   <h3 style=" text-align: center;  ">94GCTians Public Charitable Trust-Documents Upload Form </h3></div><br>
+ <img class="center"src ="https://94gctianstrust.org/img/logo.png" alt="94GCTians Trust Logo"> 
+     <h3 class="header"> Download the files</h3>
+  <ul class="a">
+        <li class="a" onclick="download1()">Appendix-1</li>
+<li class="a" onclick="download2()">Appendix-2</li><br>
+
+
+<!-- <li class="popup" onclick="popup()">ReadMe !
+  <span class="popuptext" id="myPopup">	* Certificate MUST mention it is for “94GCTians Public CharitableTrust” Sponsorship.<br>
+*Certificate MUST mention that you are not getting any other scholarship. If you are getting anything, please mention the name of the scholarship and amount per year.<br>
+*Certificate MUST mention that you are staying in hostel (ONLY if you are a hosteller)</span>
+</li> -->
+</ul>
+
+ <h5 class="header" style="   ">Student Details </h5><br>
+
+    <?var url = getUrl();?>
+    <form method="post" action="<?= url ?>" >
+      <table cellpadding="1px">
+      <style> 
+    @media screen and (min-width: 480px) {
+  img.center {width: 60%;
+  height:129;
+   float: center;
+    display: block;
+    margin: 0 auto;
+   
+   }
+ // #main {margin-left: 216px;}
+}
+ @media screen and (max-width: 480px) {
+  img.center {width: 100%;
+  height:117;
+   float: center;
+       display: block;
+    margin: 0 auto;
+
+   }
+ // #main {margin-left: 216px;}
+}
+ .a {
+      
+  text-decoration-line: underline;
+  text-decoration-style: solid;
+   color: blue;
+} 
+
+.b{
+      text-align:center;
+  text-decoration-line: underline;
+  text-decoration-style: solid;
+   color: red;
+} 
+ul.a {
+  list-style-type: circle;
+}
+      .download{
+    //height: 80px;
+  
+   width: 100%;
+  padding-top: 1%;
+   padding-bottom: 1%;
+  left: 0;
+  bottom: 0;
+  margin:0;
+  text-align:center;
+  background: rgba(97,4,141,1);
+  color: #fff;
+  text-shadow: 0 -1px 0 rgba(0,0,0,.3);
+  font-size: 14px;
+  line-height: 25px;
+}
+ @media screen and (min-width: 480px) {
+.header{
+    //height: 80px;
+   padding-left: 15%;
+    padding-right: 15%;
+   width: 70%;
+  padding-top:0.5%;
+   padding-bottom: 0.5%;
+  left: 15%;
+    right: 15%;
+  bottom: 0;
+  margin:0;
+  text-align:center;
+  background: rgba(97,4,141,1);
+  color: #fff;
+  text-shadow: 0 -1px 0 rgba(0,0,0,.3);
+  font-size: 20px;
+  line-height: 24px;
+}
+}
+ @media screen and (max-width: 480px) {
+.header{
+    //height: 80px;
+  
+   width: 100%;
+  padding-top: 1%;
+   padding-bottom: 1%;
+  left: 0;
+  bottom: 0;
+  margin:0;
+  text-align:center;
+  background: rgba(97,4,141,1);
+  color: #fff;
+  text-shadow: 0 -1px 0 rgba(0,0,0,.3);
+  font-size: 14px;
+  line-height: 25px;
+}
+}
+input[type=text] {
+  width: 100%;
+  padding: 10px 10px;
+  margin: 2px 0;
+  box-sizing: border-box;
+  border: 2px solid white10;
+  border-radius: 7px;
+}
+</style>
+
+
+      <tr>
+      
+      <label class="username">Name:</label>
+ <input type="text" id="username" name="username" required /><br><br>
+
+<style>
+  .username:after {
+    content:" *";
+    color: red;
+  }
+</style>
+      
+      
+      
+    
+    
+      </tr>
+      
+      
+      <tr>
+      
+     
+    <label  class="department" for="dept" name="department"  required>Department:</label>
+
+<select id="dept" name="department" required>
+   <option value="">Select</option>
+  <option value="CSE">CSE</option>
+  <option value="ECE">ECE</option>
+  <option value="MECH">MECH</option>
+  <option value="CIVIL">CIVIL</option>
+  <option value="IBT">IBT</option>
+  <option value="EIE">EIE</option>
+  <option value="IT">IT</option>
+  <option value="PRODUCTION">PRODUCTION</option>
+  <option value="EEE">EEE</option>
+</select>
+  
+  <style>
+  .department:after {
+    content:" *";
+    color: red;
+  }
+</style>
+      </tr><br><br>
+    
+      <tr>
+       
+    <label class="academicyear" for="year" name="academicyear"  required >Academic Year:</label>
+
+<select id="year" name="academicyear" required>
+ <option value="">Select</option>
+   <option value="2020-2021">2020-2021</option>
+  <option value="2021-2022">2021-2022</option>
+  <option value="2022-2023">2022-2023</option>
+  <option value="2023-2024">2023-2024</option>
+
+ 
+</select>
+ 
+     <style>
+  .academicyear:after {
+    content:" *";
+    color: red;
+  }
+</style>
+      </tr><br><br>
+      <tr>
+      
+            
+    <label class="semester" for="sem"  name="semester" required >Semester:</label>
+
+<select id="sem" name="semester" required>
+ <option value="">Select</option>
+  <option value="1">1</option>
+  <option value="2">2</option>
+  <option value="3">3</option>
+  <option value="4">4</option>
+  <option value="5">5</option>
+  <option value="6">6</option>
+  <option value="7">7</option>
+  <option value="8">8</option>
+  
+
+ 
+</select>
+  
+      <style>
+  .semester:after {
+    content:" *";
+    color: red;
+  }
+</style>
+      </tr><br><br>
+      
+      <tr>
+       <h5 class="header" style="   ">Bank Details </h5>
+       
+       </tr><br>
+       
+         <style> 
+         @media screen and (min-width: 480px) {
+input[type=text] {
+  width: 50%;
+  padding: 10px 10px;
+  margin: 2px 0;
+  box-sizing: border-box;
+  border: 2px solid white10;
+  border-radius: 7px;
+}}
+ @media screen and (max-width: 480px) {
+input[type=text] {
+  width: 75%;
+  padding: 10px 10px;
+  margin: 2px 0;
+  box-sizing: border-box;
+  border: 2px solid white10;
+  border-radius: 7px;
+}}
+</style>
+      <tr>
+      
+      <label class="accountholdername"> Account Holder Name:</label>
+ <input type="text" id="accountholdername" name="accountholdername" required />
+
+<style>
+  .accountholdername:after {
+    content:" *";
+    color: red;
+    
+  }
+  
+</style> 
+      
+   
+      </tr><br><br>
+      
+
+      <tr>
+      
+      <label class="accountnumber"> Account Number:</label>
+ <input type="text" id="accountnumber" name="accountnumber" required />
+
+<style>
+  .accountnumber:after {
+    content:" *";
+    color: red;
+    
+  }
+      
+   </style> 
+      
+   
+      </tr>   <br><br>
+      
+      
+        <tr>
+      
+      <label class="bankname"> Bank Name:</label>
+ <input type="text" id="bankname" name="bankname" required />
+
+<style>
+  .bankname:after {
+    content:" *";
+    color: red;
+    
+  }
+      
+   </style> 
+      
+   
+      </tr>   <br><br>
+      
+        <tr>
+      
+      <label class="branch"> Branch:</label>
+ <input type="text" id="branch" name="branch" required />
+
+<style>
+  .branch:after {
+    content:" *";
+    color: red;
+    
+  }
+      
+   </style> 
+     
+   
+      </tr>  <br><br>
+      
+       <tr>
+      
+      <label class="ifsc"> IFSC Code:</label>
+ <input type="text" id="ifsc" name="ifsc" required />
+
+<style>
+  .ifsc:after {
+    content:" *";
+    color: red;
+    
+  }
+      
+   </style> 
+      </tr>  <br><br>
+      
+      
+        <tr>
+
+      <label class="micr"> MICR No:</label>
+ <input type="text" id="micr" name="micr" required />
+
+<style>
+  .micr:after {
+    content:" *";
+    color: red;
+    
+  }
+      
+   </style> 
+      
+      </tr>  <br><br>
+      
+      <tr>
+      
+        <p class="accounttype2">Please select your Account Type:</p>
+       <input type="radio" class="accounttype" name="accounttype" value="savings" required>
+  <label for="male">Savings</label><br>
+  <input type="radio" id="accounttype" name="accounttype" value="current" required>
+  <label for="female">Current</label>
+  
+  <style>
+  .accounttype2:after {
+    content:" *";
+    color: red;
+    
+  }
+      
+   </style> 
+      
+      </tr><br><br>
+      
+      <tr>
+      
+     
+      <input type="checkbox" class="consent" name="consent" value="ok no problem!" required>
+  <label for="vehicle1" class="consent2"> I provide my consent to publish my name, photo and achievements on 94GCTians Public Charitable Trust website</label><br>
+     <style>
+  .consent2:after {
+    content:" *";
+    color: red;
+    
+  }
+     .consent3:before {
+    content:" *";
+    color: red;
+    
+  }
+   </style> 
+      </tr><br>
+      
+ 
+
+      <tr><h3 class="b">Note:</h3></tr>
+     <tr> <p class="a">*Bonafide Certificate MUST mention it is for “94GCTians Public CharitableTrust” Sponsorship.<br><br>
+*Bonafide Certificate MUST mention that you are not getting any other scholarship. If you are getting anything, please mention the name of the scholarship and amount per year.<br><br>
+*Bonafide Certificate MUST mention that you are staying in hostel (ONLY if you are a hosteller)<br><br>
+*Files should be in pdf/jpg/jpeg/png.*Fields Are Mandatory.
+
+  </p></tr>
+    <h5 class="header" style="   ">Documents to Upload  </h5>
+      
+      <tr>
+      <td colspan="1" class="first">
+<style>
+td { 
+               height:39px; 
+                text-align:center; 
+               
+                padding:5px 
+              
+            } 
+td.first{display:block;width:2200;clear:both}
+td.first {
+   width: 100%;
+  
+}
+                
+ </style></td></tr>
+
+       
+       
+       
+      
+      
+
+<!-- <script>
+function popup() {
+  var popup = document.getElementById("myPopup");
+  popup.classList.toggle("show");
+}
+</script> -->
+ <!-- <style>
+/* Popup container - can be anything you want */
+.popup {
+  text-align: center;
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+} -->
+<!-- 
+/* The actual popup */
+.popup .popuptext {
+  visibility: hidden;
+  width: 367px;
+  background-color: #555;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 8px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 125%;
+  left: 50%;
+  margin-left: -80px;
+} -->
+<!-- 
+/* Popup arrow */
+.popup .popuptext::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #555 transparent transparent transparent;
+} -->
+<!-- 
+/* Toggle this class - hide and show the popup */
+.popup .show {
+  visibility: visible;
+  -webkit-animation: fadeIn 1s;
+  animation: fadeIn 1s;
+}
+
+/* Add animation (fade in the popup) */
+@-webkit-keyframes fadeIn {
+  from {opacity: 0;} 
+  to {opacity: 1;}
+}
+
+@keyframes fadeIn {
+  from {opacity: 0;}
+  to {opacity:1 ;}
+}
+</style> -->
+        <!-- <h5>Appendix-1</h5><button onclick="download1()">Download</button><br>
+<h5 >Appendix-2</h5><button onclick="download2()">Download</button><br> -->
+          <!-- <ul>
+                    
+                         <li><a href="https://get.geojs.io/v1/ip/geo.json"> Appendix-1</a></li>
+                         <li><a href="https://docs.google.com/document/d/1-HPXkLMgFNTNpmv0WmZGA80YwCdBayCq/edit?rtpof=true">Appendix-2 </a></li>
+                        
+                       
+                  
+                  </ul>
+                  --> 
+                  <tr>
+      <td class="file1">Hand Written Request Letter (Appendix-1):</td>
+      <td><input type="file"  name="file" onchange="LoadFile(event,username)"  required/>
+      <input type="hidden" id="fileData" name="fileData" />
+      <input type="hidden" id="mimeType" name="mimeType" />
+      <input type="hidden" id="fileName" name="fileName" /></td>
+      
+        <style>
+  .file1:after {
+  padding-right: 3px;
+    content:" *";
+    color: red;
+  }
+</style>
+      </tr>
+    
+       <tr>
+      <td class="file2">Annual Request Form - Handwritten or Print out with filled in information (Appendix-2):</td>
+      <td><input type="file"  name="file" onchange="LoadFile2(event)" required />
+      <input type="hidden" id="fileData2" name="fileData2" />
+      <input type="hidden" id="mimeType2" name="mimeType2" />
+      <input type="hidden" id="fileName2" name="fileName2" /></td>
+      
+        <style>
+  .file2:after {
+  padding-right: 3px;
+    content:" *";
+    color: red;
+  }
+</style>
+      </tr>
+       <tr>
+      <td class="file3">Bonafide Certificate:</td>
+      <td><input type="file"  name="file" onchange="LoadFile3(event)" required />
+      <input type="hidden" id="fileData3" name="fileData3" />
+      <input type="hidden" id="mimeType3" name="mimeType3" />
+      <input type="hidden" id="fileName3" name="fileName3" /></td>
+      
+       <style>
+  .file3:after {
+  padding-right: 3px;
+    content:" *";
+    color: red;
+  }
+</style>
+      </tr>
+         <tr>
+      <td class="file4">Fees structure (Current Academic Year):</td>
+      <td><input type="file" name="file" onchange="LoadFile4(event)" required>
+      <input type="hidden" id="fileData4" name="fileData4" />
+      <input type="hidden" id="mimeType4" name="mimeType4" />
+      <input type="hidden" id="fileName4" name="fileName4" /></td>
+        <style>
+  .file4:after {
+  padding-right: 3px;
+    content:" *";
+    color: red;
+  }
+</style>
+      </tr>
+      
+       <tr>
+      <td class="file5">Aadhar Card Copy:</td>
+      <td><input type="file" name="file" onchange="LoadFile5(event)"  required/>
+      <input type="hidden" id="fileData5" name="fileData5" />
+      <input type="hidden" id="mimeType5" name="mimeType5" />
+      <input type="hidden" id="fileName5" name="fileName5" /></td>
+      
+        <style>
+  .file5:after {
+  padding-right: 3px;
+    content:" *";
+    color: red;
+  }
+</style>
+      </tr>
+      
+       <tr>
+      <td class="file6">College ID Card Copy:</td>
+      <td><input type="file" name="file" onchange="LoadFile6(event)"/>
+      <input type="hidden" id="fileData6" name="fileData6" />
+      <input type="hidden" id="mimeType6" name="mimeType6" />
+      <input type="hidden" id="fileName6" name="fileName6" /></td>
+      
+      
+      </tr>
+       <tr>
+      <td class="file7">X Marksheet:</td>
+      <td><input type="file" name="file" onchange="LoadFile7(event)" required/>
+      <input type="hidden" id="fileData7" name="fileData7" />
+      <input type="hidden" id="mimeType7" name="mimeType7" />
+      <input type="hidden" id="fileName7" name="fileName7" /></td>
+        <style>
+  .file7:after {
+  padding-right: 3px;
+    content:" *";
+    color: red;
+  }
+</style>
+      </tr>
+      
+       <tr>
+      <td class="file8">XII Marksheet  :</td>
+      <td><input type="file" name="file" onchange="LoadFileEight(event)"  required/>
+      <input type="hidden" id="fileData8" name="fileData8" />
+      <input type="hidden" id="mimeType8" name="mimeType8" />
+      <input type="hidden" id="fileName8" name="fileName8" /></td>
+        <style>
+  .file8:after {
+  padding-right: 3px;
+    content:" *";
+    color: red;
+  }
+</style>
+      </tr>
+      
+       <tr>
+      <td class="file9">Transfer Certificate  (TC) :</td>
+      <td><input type="file" name="file" onchange="LoadFileNine(event)"  required/>
+      <input type="hidden" id="fileData9" name="fileData9" />
+      <input type="hidden" id="mimeType9" name="mimeType9" />
+      <input type="hidden" id="fileName9" name="fileName9" /></td>
+        <style>
+  .file9:after {
+  padding-right: 3px;
+    content:" *";
+    color: red;
+  }
+</style>
+      </tr>
+     
+     
+      <tr>
+      <td>First Graduate Certifcate(if applicable):</td>
+      <td><input type="file" name="file" onchange="LoadFileTen(event)" />
+      <input type="hidden" id="fileData10" name="fileData10" />
+      <input type="hidden" id="mimeType10" name="mimeType10" />
+      <input type="hidden" id="fileName10" name="fileName10" /></td>
+      </tr>
+      
+       <tr>
+      <td class="file11">Counselling Letter for Seat Allotment :</td>
+      <td><input type="file" name="file" onchange="LoadFileEleven(event)" required/>
+      <input type="hidden" id="fileData11" name="fileData11" />
+      <input type="hidden" id="mimeType11" name="mimeType11" />
+      <input type="hidden" id="fileName11" name="fileName11" /></td>
+        <style>
+  .file11:after {
+  padding-right: 3px;
+    content:" *";
+    color: red;
+  }
+</style>
+      </tr>
+      
+       <tr>
+      <td class="file12"> College Admission letter:</td>
+      <td><input type="file" name="file" onchange="LoadFileTwelve(event)" required  />
+      <input type="hidden" id="fileData12" name="fileData12" />
+      <input type="hidden" id="mimeType12" name="mimeType12" />
+      <input type="hidden" id="fileName12" name="fileName12" /></td>
+        <style>
+  .file12:after {
+  padding-right: 3px;
+    content:" *";
+    color: red;
+  }
+</style>
+      </tr>
+      
+      
+      <tr>
+      <td  class="file13">Income Certificate or last 3 month  salary slip :</td>
+      <td><input type="file" name="file" onchange="LoadFile13(event)" required />
+      <input type="hidden" id="fileData13" name="fileData13" />
+      <input type="hidden" id="mimeType13" name="mimeType13" />
+      <input type="hidden" id="fileName13" name="fileName13" /></td>
+        <style>
+  .file13:after {
+  padding-right: 3px;
+    content:" *";
+    color: red;
+  }
+</style>
+      </tr>
+        
+      <tr>
+      <td class="file14">Tuition/Hostel/Mess Fees paid receipts in one pdf :</td>
+      <td><input type="file" name="file" onchange="LoadFile14(event)" required/>
+      <input type="hidden" id="fileData14" name="fileData14" />
+      <input type="hidden" id="mimeType14" name="mimeType14" />
+      <input type="hidden" id="fileName14" name="fileName14" /></td>
+        <style>
+  .file14:after {
+  padding-right: 3px;
+    content:" *";
+    color: red;
+  }
+</style>
+      </tr>
+      
+       <tr>
+      <td class="file15">Bank PassBook FrontPage Copy  and last 1 year Status (June-May in one pdf) :</td>
+      <td><input type="file" name="file" onchange="LoadFile15(event)" required/>
+      <input type="hidden" id="fileData15" name="fileData15" />
+      <input type="hidden" id="mimeType15" name="mimeType15" />
+      <input type="hidden" id="fileName15" name="fileName15" /></td>
+        <style>
+  .file15:after {
+  padding-right: 3px;
+    content:" *";
+    color: red;
+  }
+</style>
+      </tr>
+       <tr>
+      <td class="file16"> Passport Size Photo:</td>
+      <td><input type="file" name="file" onchange="LoadFile16(event)" required />
+      <input type="hidden" id="fileData16" name="fileData16" />
+      <input type="hidden" id="mimeType16" name="mimeType16" />
+      <input type="hidden" id="fileName16" name="fileName16" /></td>
+        <style>
+  .file16:after {
+  padding-right: 3px;
+    content:" *";
+    color: red;
+  }
+</style>
+      </tr>
+      
+       <tr>
+      <td class="file17">Family/Parents photo (in front of house):</td>
+      <td><input type="file" name="file" onchange="LoadFile17(event)" required/>
+      <input type="hidden" id="fileData17" name="fileData17" />
+      <input type="hidden" id="mimeType17" name="mimeType17" />
+      <input type="hidden" id="fileName17" name="fileName17" /></td>
+        <style>
+  .file17:after {
+  padding-right: 3px;
+    content:" *";
+    color: red;
+  }
+</style>
+      </tr>
+       
+      
+      
+      
+      <tr>
+      <style> 
+      /* .submit{
+    //display: block;
+    padding: 10px 10px;
+    width: 100%;
+    border-radius: 12px;
+    color: #ffffff;
+    background-color: #34003b;
+    border: 0;
+} */
+input[type=submit] {
+  background-color: blue;
+  border: none;
+  color: white;
+   border-radius: 10px;
+  padding: 10px 15px;
+  text-decoration: none;
+  margin: 4px 2px;
+  width:230;
+  cursor: pointer;
+  text-align:center;
+  background: rgba(97,4,141,1);
+  color: #fff;
+  text-shadow: 0 -1px 0 rgba(0,0,0,.3);
+  font-size: 14px;
+  line-height: 22px;
+}
+</style>
+      <td colspan="2"><input type="submit"  onclick="myFunction()" value="Submit"  />
+    
+      
+      <div id="snackbar">...Thanks For Submitting...</div>
+
+
+
+      
+
+<script>
+ 
+ 
+function myFunction() {
+  var username = document.getElementById("username").value;
+   var dept = document.getElementById("dept").value;
+    var year = document.getElementById("year").value;
+     var sem = document.getElementById("sem").value;
+ var accountholdername = document.getElementById("accountholdername").value;
+ var accountnumber = document.getElementById("accountnumber").value;
+  var bankname = document.getElementById("bankname").value;
+   var branch = document.getElementById("branch").value;
+    var ifsc = document.getElementById("ifsc").value;
+     var micr = document.getElementById("micr").value;
+ 
+   var fileName = document.getElementById("fileName").value;
+   var fileName2 = document.getElementById("fileName2").value;
+  var fileName3 = document.getElementById("fileName3").value;
+   var fileName4 = document.getElementById("fileName4").value;
+   var fileName5 = document.getElementById("fileName5").value;
+   var fileName6 = document.getElementById("fileName6").value;
+   var fileName7 = document.getElementById("fileName7").value;
+   var fileName8 = document.getElementById("fileName8").value;
+   var fileName9 = document.getElementById("fileName9").value;
+   
+   var fileName11 = document.getElementById("fileName11").value;
+   var fileName12 = document.getElementById("fileName12").value;
+   var fileName13 = document.getElementById("fileName13").value;
+   var fileName14 = document.getElementById("fileName14").value;
+   var fileName15 = document.getElementById("fileName15").value;
+   var fileName16 = document.getElementById("fileName16").value;
+   var fileName17 = document.getElementById("fileName17").value;
+   
+  
+ 
+  var x = document.getElementById("snackbar");
+  if (username != '' && bankname != ''&& dept != ''&& year != ''&& sem != ''&& accountholdername != '' && accountnumber != '' && branch != '' && ifsc != '' && micr != '' &&fileName != '' &&fileName2 != '' &&fileName3 != ''&&fileName4 != '' &&fileName5 != '' &&fileName6 != '' &&fileName7 != '' &&fileName8 != ' ' &&fileName9 != ''  &&fileName11 != '' &&fileName12 != '' &&fileName13 != '' &&fileName14 != '' &&fileName15 != ' ' &&fileName16 != '' &&fileName17 != '') {
+  x.className = "show";
+  setTimeout(function(){ x.className = x.className.replace("show", ""); }, 9000);
+ // location.replace("https://mahesh.newsled.in")
+  }
+
+}
+ 
+</script>
+<style>
+#snackbar {
+  visibility: hidden;
+  min-width: 250px;
+  margin-left: -125px;
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  border-radius: 2px;
+  padding: 16px;
+  position: fixed;
+  z-index: 1;
+  left: 50%;
+  bottom: 30px;
+  font-size: 17px;
+}
+
+#snackbar.show {
+  visibility: visible;
+  -webkit-animation: fadein 0.5s, fadeout 0.5s 2.5s;
+  animation: fadein 0.5s, fadeout 0.5s 2.5s;
+}
+
+@-webkit-keyframes fadein {
+  from {bottom: 0; opacity: 0;} 
+  to {bottom: 30px; opacity: 1;}
+}
+
+@keyframes fadein {
+  from {bottom: 0; opacity: 0;}
+  to {bottom: 30px; opacity: 1;}
+}
+
+@-webkit-keyframes fadeout {
+  from {bottom: 30px; opacity: 1;} 
+  to {bottom: 0; opacity: 0;}
+}
+
+@keyframes fadeout {
+  from {bottom: 30px; opacity: 1;}
+  to {bottom: 0; opacity: 0;}
+}
+</style>
+</td>
+      </tr>
+     
+      
+      
+      <tr>
+      <td colspan="2"><span><?= message ?></span></td>     
+      </tr>
+      </table>
+    </form>
+
+    
+  </body>
+</html>
+
+
